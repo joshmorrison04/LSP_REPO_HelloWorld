@@ -1,0 +1,7 @@
+ProductID,Name,Price,Category,PriceRange
+1,LAPTOP,1080.00,Premium Electronics,Premium
+2,MOUSE,22.50,Electronics,Medium
+3,OFFICE CHAIR,85.00,Furniture,Medium
+4,PEN,2.00,Stationery,Low
+5,DESK,105.00,Furniture,High
+6,MONITOR,89.10,Electronics,Medium
