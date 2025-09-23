@@ -8,8 +8,8 @@ import java.util.Scanner;
 
 public class ETLPipeline {
     public static void main(String[] args) {
-        String inputPath = "../data/products.csv";
-        String outputPath = "../data/transformed_products.csv";
+        String inputPath = "data/products.csv";
+        String outputPath = "data/transformed_products.csv";
 
         ArrayList<String[]> rawData = extract(inputPath);
         if (rawData == null) return;
