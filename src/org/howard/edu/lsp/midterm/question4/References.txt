@@ -1,0 +1,10 @@
+1.) 
+Device is defined as an abstract class because it defines shared attributes (id, location, heartbeat, connection state) 
+but doesn’t represent a specific concrete device. Declaring it abstract prevents direct instantiation and enforces 
+getStatus() to be implemented by subclasses.
+
+2.) Networked adds networking control methods (connect/disconnect), and BatteryPowered adds battery management. 
+They let concrete classes include only the behaviors that make sense for that device type.
+
+3.) Not traditionally, Java supports single inheritance for classes but allows multiple interface implementations. 
+So this is interface-based multiple inheritance of behavior, not of state.
